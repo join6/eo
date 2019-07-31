@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "name": "Henery",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 1,
+      "age": 20,
+      "compayId": 1
+    },
+    {
+      "name": "tom",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 2,
+      "age": 20,
+      "compayId": 1
+    },
+    {
+      "name": "吴泽丽",
+      "phone": "33xxx58",
+      "emial": "60222974",
+      "id": 3,
+      "age": 20,
+      "compayId": 2,
+      "companyId": "3"
+    },
+    {
+      "name": "milke",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 4,
+      "age": 20,
+      "compayId": 3
+    },
+    {
+      "name": "吴泽丽",
+      "emial": "60222974",
+      "companyId": "3",
+      "id": 6
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "GOOD!"
+    },
+    {
+      "id": 2,
+      "name": "HuaWei",
+      "description": "GOOD!GOOD!"
+    },
+    {
+      "id": 3,
+      "name": "Miscrosoft",
+      "description": "GOOD!GOOD!GOOD!"
+    }
+  ],
+  "sort": [
+    {
+      "path": "/home",
+      "name": "首页"
+    },
+    {
+      "name": "系统组件",
+      "child": [
+        {
+          "name": "介绍",
+          "path": "/components"
+        },
+        {
+          "name": "功能类",
+          " child": [
+            {
+              " path": "'/components/permission'",
+              "name": "'详细鉴权'"
+            },
+            {
+              "path": "/components/pageTable",
+              "name": "表格分页"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navList": [
+    {
+      "groupID": "1",
+      "navItem": "API Studio"
+    },
+    {
+      "groupID": "2",
+      "navItem": "API Gateway-EE"
+    },
+    {
+      "groupID": "3",
+      "navItem": "API Beacon"
+    },
+    {
+      "groupID": "4",
+      "navItem": "DataBase Builder"
+    },
+    {
+      "groupID": "5",
+      "navItem": "Workspace"
+    },
+    {
+      "groupID": "6",
+      "navItem": "API Gateway-CE"
+    }
+  ],
+  
+ 
+  "article":[
+    {
+  "askListA": [
+    "私有云版如何收费",
+    "私有云版如何收费",
+    "私有云版如何收费",
+    "私有云版如何收费"
+  ]
+},
+ 
+  {"title": "如何使用MOCK API"},
+  {"list": [
+    {
+      "name": "什么是Mock API?",
+      "content": "在瀑布流开发模式中，如果前端开发人员需要进行页面对接，需要后端先完成API的开发工作，因此前后端开发的进度会互相影响。通过 Mock API，您可以事先编写好 API 的数据生成规则，由 API Studio 动态生成 API 的返回数据。开发人员通过访问 Mock API 来获得页面所需要的数据，完成对接工作。当项目正式发布时，只需将 EOLINKER API Studio 的地址前缀替换为实际的访问地址即可。因为同一个项目中的Mock API的地址前缀是相同的（如mock.eolinker.com/uasyd1/…），因此可以在代码中将Mock API的地址前缀作为全局变量，项目上线时仅需替换变量的值即可改变整个项目的 API 请求地址前缀。"
+    },
+    {
+      "name": "什么是MOCK API期望",
+      "content": "有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则，有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则返回预期的数据。在API Studio中您可以设置多个Mock API 期望，模拟前端发起的各种请求，方便对前端逻辑进行校验。"
+    },
+    {
+      "name": "创建MOCK API",
+      "content": "在瀑布流开发模式中，如果前端开发人员需要进行页面对接，需要后端先完成API的开发工作，因此前后端开发的进度会互有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则相影响。有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则通过 Mock API，您可以事先编写好 API 的数据生成规则，由 API Studio 动态生成 API 的返回数据。开发人员通过访问 Mock API 来获得页面所需要的数据，完成对接工作。当项目正式发布时，只需将 EOLINKER API Studio 的地址前缀替换为实际的访问地址即可。因为同一个项目中的Mock API的地址前缀是相同的（如mock.eolinker.com/uasyd1/…），因此可以在代码中将Mock API的地址前缀作为全局变量，项目上线时仅需替换变量的值即可改变整个项目的 API 请求地址前缀。"
+    },
+    {
+      "name": "JSON编辑器",
+      "content": "有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则，有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则返回预期的数据。在API Studio中您可以设置多个Mock API 期望，模拟前端发起的各种请求，方便对前端逻辑进行校验。"
+    },
+    {
+      "name": "Raw",
+      "content": "有时候您需要根据不同的请求参数返回不同的 HTTP Code、HTTP Header、Body数据。Mock API 期望就是根据设置的请求过滤规则，返回预期的数据。在API Studio中您可以设置多个Mock API 期望，模拟前端发起的各种请求，方便对前端逻辑进行校验。"
+    }
+  ]
+},
+  {"navListA": [
+    "什么是Mock API?",
+    "什么是MOCK API期望",
+    "创建MOCK API",
+    "JSON编辑器",
+    "Raw"
+  ]
+}
+],
+"before":["如何新建项目"],
+"after":["在线分享项目"]
+}

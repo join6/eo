@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "name": "Henery",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 1,
+      "age": 20,
+      "compayId": 1
+    },
+    {
+      "name": "tom",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 2,
+      "age": 20,
+      "compayId": 1
+    },
+    {
+      "name": "milke",
+      "phone": "3333158",
+      "emial": "doudou@163.com",
+      "id": 4,
+      "age": 20,
+      "compayId": 3
+    }
+  ],
+  "companies": [
+    {
+      "name": "555566ss",
+      "description": "55555666",
+      "id": 5
+    },
+    {
+      "name": "666",
+      "description": "666",
+      "id": 6
+    }
+  ],
+  "login": {
+    "username": "doudou",
+    "password": "141903"
+  }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.1,maximum-scale=1.0,user-scalable=0">
+    <meta name="author" content="吴焯婷">
+    <title>后台管理平台</title>
+    <link rel="stylesheet" type="text/css" href="back.css">
+    <script src="jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <div class="base-container">
+        <index class="all-div">
+            <navbar class="header-navbar">
+                <div class="nb-container">
+                    <div class="f-left">
+                        <img class="mages" alt="EOLINKER-专业api接口管理平台" src="https://help.eolinker.com/assets/images/eolinker_sim.png">
+                        <span class="mages">|</span>
+                        <a class ui-sref="index" href="back.html" style="margin-right: 40px">后台管理平台</a>
+                        <a class ui-sref="index" href="help.html">帮助中心</a>
+                    </div>
+                    <div class="f-right">
+                        <a class="re-button" target="_blank">退出登录</a>
+                    </div>
+                </div>
+            </navbar>
+            <div class="manageList-bg">
+                <div class="manageList">
+                    <div class="manageList-one">
+                        <span class="one-name">产品教程管理</span>
+                    </div>
+                </div>
+            </div>
+            <div class="manage-play-bg">
+                <div class="manage-play">
+                    <div class="manage-title-bg">
+                    </div>
+                    <div class="manage-button-bg">
+                        <button id="new-pro" type="button" class="manage-button">新建产品</button>
+                        <button id="new-fir" type="newfirst" class="manage-button hide">新建一级分类</button>
+                        <button id="new-sec" type="newfirst" class="manage-button hide">新建二级分类</button>
+                        <button id="new-art" type="newfirst" class="manage-button hide">新建教程</button>
+                    </div>
+                    <div class="manage-list">
+                        <span class="manage-list-ti">教程记录</span>
+                        <div class="manage-list-ul-bg">
+                        </div>
+                    </div>
+                    <div id="shade" class="overCurtain hide"></div>
+                    <div id="modal" class="hide-one hide">
+                        <div class="formhead">
+                            <div class="formhead-title">
+                                新建教程
+                            </div>
+                            <button type="button" class="close">X</button>
+                        </div>
+                        <div class="formbody">
+                            <div class="forminput-o">
+                                <div class="title-font">产品分类名称</div>
+                                <input id="productName" name="productName" class="newInput" placeholder="productName" type="text">
+                            </div>
+                            <div class="forminput-t">
+                                <div class="title-font">产品分类icon</div>
+                                <a class="blueButton">选择文件</a>
+                                <input id="productIcon" type="file" accept="image/jpg, image/png, image/jpeg, image/gif" class="myFileUpload">
+                                <div class="show"></div>
+                            </div>
+                            <div class="forminput-t">
+                                <div class="title-font">产品分类描述</div>
+                                <input id="productDetail" name="productDetail" class="newInput" placeholder="productDetail" type="text" style="border-bottom-right-radius:5px;">
+                            </div>
+                            <div class="formbutton">
+                                <input id="BSubmit" type="button" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pro-modal" class="hide-one hide">
+                        <div class="formhead">
+                            <div class="formhead-title">
+                                编辑产品分类
+                            </div>
+                            <button type="button" class="close">X</button>
+                        </div>
+                        <div class="formbody">
+                            <div class="forminput-o">
+                                <div class="title-font">产品分类名称</div>
+                                <input id="productName-1" name="productName" class="newInput" type="text">
+                            </div>
+                            <div class="forminput-t">
+                                <div class="title-font">产品分类icon</div>
+                                <a class="blueButton">选择文件</a>
+                                <input id="productIcon-1" type="file" accept="image/jpg, image/png, image/jpeg, image/gif" class="myFileUpload">
+                                <div class="show"></div>
+                            </div>
+
+                            <div class="forminput-t">
+                                <div class="title-font">产品分类描述</div>
+                                <input id="productDetail-1" name="productDetail" class="newInput" type="text" style="border-bottom-right-radius:5px;">
+                            </div>
+                            <div class="formbutton">
+                                <input id="BSubmit" type="button" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fri-modal" class="hide-one hide">
+                        <div class="formhead">
+                            <div class="formhead-title">
+                                新建一级分类
+                            </div>
+                            <button type="button" class="close">X</button>
+                        </div>
+                        <div class="formbody">
+                            <div class="forminput-o">
+                                <div class="title-font">产品分类名称</div>
+                                <input id="productName" name="productName" class="newInput" placeholder="productName" type="text">
+                            </div>
+                            <div class="forminput-t">
+                                <div class="title-font">一级分类</div>
+                                <input id="productDetail" name="productDetail" class="newInput" placeholder="productDetail" type="text" style="border-bottom-right-radius:5px;">
+                            </div>
+                            <div class="formbutton">
+                                <input id="fri-BSubmit" type="button" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </index>
+    </div>
+    <script src="back.js" charset="UTF-8"></script>
+</body>
+
+</html>

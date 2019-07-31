@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.base-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: block;
+    cursor: inherit;
+}
+
+span {
+    cursor: inherit;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333333;
+}
+
+navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+    left: 0;
+    top: 0;
+    background-color: white;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.nb-container {
+    height: 60px;
+    padding: 0 20px;
+    background-color: #fff;
+    border-color: #cacacad2;
+    display: flex;
+    border-bottom: 1px solid #cacacad2;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.f-left {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.f-right {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mages {
+    margin-right: 20px;
+}
+
+.rtilte {
+    margin-right: 40px;
+}
+
+.re-button {
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(52, 128, 214);
+    margin-right: 10px;
+    padding: 0 10px;
+    overflow: hidden;
+    position: relative;
+    height: 35px;
+    line-height: 32px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    vertical-align: inherit;
+    font-size: 15px;
+}
+
+.manageList {
+    height: 100%;
+    border-right: 1px solid #d9d9d9;
+    width: 250px;
+    z-index: 3;
+    position: fixed;
+    background-color: #fafbff;
+    top: 60px;
+}
+
+.manageList-one {
+    margin-top: 80px;
+    padding-left: 20px;
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    background-color: #1b8afa;
+    color: #fff;
+}
+
+.one-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.manage-play-bg {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.manage-play {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.manage-title-bg {
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.manage-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.manage-button-bg {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.manage-button {
+    line-height: 32px;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 32px;
+    width: 120px;
+    background-color: #1b8afa;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.manage-list {
+    border: 1px solid #999999;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.manage-list-ti {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.manage-list-ul-bg {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 85)px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.manage-list-ul {
+    width: 100%;
+    border-top: 1px solid #d9d9d9;
+    padding: 10px;
+    height: 30px;
+}
+
+.manage-list-li {
+    margin-top: 5px;
+    width: 250px;
+    height: 20px;
+    float: left;
+    margin-left: 80px;
+}
+
+.manage-list-some {
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+}
+
+.manage-list-li-last {
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+}
+
+.manage-list-li-p {
+    margin-top: 5px;
+    width: 250px;
+    height: 20px;
+    float: left;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.manage-list-at {
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.manage-list-ac {
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.manage-list-li-wa {
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+}
+
+.manage-list-li-am {
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+}
+
+.print {
+    float: left;
+    margin-right: 10px;
+}
+
+.delete {
+    float: left;
+    margin-left: 10px;
+    margin-top: -18px;
+}
+
+.manage-list-li-t {
+    margin-top: 5px;
+    width: 250px;
+    height: 20px;
+    float: left;
+    margin-left: 75px;
+}
+
+.manage-list-li-w {
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-left: 40px;
+}
+
+.overCurtain {
+    border-top: 1px solid rgb(230, 245, 255);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+    background-color: rgb(230, 245, 255);
+}
+
+.hide {
+    display: none;
+}
+
+.hide-one {
+    width: 408px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin-left: 500px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.formhead {
+    width: 400px;
+    height: 42px;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #2786df;
+}
+
+.title-font {
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.formhead-title {
+    width: 100px;
+    height: 24px;
+    margin-left: 146px;
+    margin-right: 36px;
+    color: #bfbfbf;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.close {
+    margin-left: 30px;
+    width: 35px;
+    height: 20px;
+    border: 0;
+    border-radius: 20%;
+    background-color: #2786df;
+    color: white;
+    display: inline-block;
+}
+
+.formbody {
+    width: 400px;
+    height: 395px;
+    background-color: #1764d8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.hide-one .newInput {
+    height: 52px;
+    width: 260px;
+    padding-left: 10px;
+    border: 0;
+    background-color: #a7c4e9;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.forminput-o {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.forminput-t {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.formbutton {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.hide-one #BSubmit {
+    border: 0;
+    background: #7995e2;
+    color: #ffffff;
+    width: 240px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 40px;
+}
+
+.hide-one #fri-BSubmit {
+    border: 0;
+    background: #7995e2;
+    color: #ffffff;
+    width: 240px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 40px;
+}
+
+.hide-one #BSubmit {
+    border: 0;
+    background: #7995e2;
+    color: #ffffff;
+    width: 240px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 40px;
+}
+
+.blueButton {
+    position: absolute;
+    margin-left: 250px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #00b3ee;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal normal 16px/40px 'Microsoft YaHei';
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+
+.blueButton:hover {
+    text-decoration: none;
+}
+
+.myFileUpload {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 40px;
+    opacity: 0;
+}
+
+.show {
+    position: absolute;
+    margin-top: 240px;
+    width: 100%;
+    height: 30px;
+    font: normal normal normal 14px/30px 'Microsoft YaHei';
+}
